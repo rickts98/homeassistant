@@ -1,0 +1,182 @@
+
+  slaapkamer_rick_lampen:
+    name: Slaapkamer lampen
+    entities: 
+      - light.xiaomi_philips_smart_led_ball
+      - light.yeelight_strip_7811dca22117
+      - light.grote_lamp_rick
+      - light.ledstrip_rick
+
+      
+  slaapkamer_rick_scenes:
+    name: Scenes
+    entities: 
+      - scene.slapen
+      - scene.lampen_aan
+      - scene.film
+      - scene.romantisch
+      
+  computer_rick:
+    name: Computer 
+    entities: 
+      - switch.wake_on_lan
+      - sensor.desktop
+
+  slaapkamer_bas_en_esther_lampen:
+    name: Slaapkamer lampen
+    entities: 
+      - light.grote_lamp_bas_esther
+  
+  slaapkamer_lars_lampen:
+    name: Slaapkamer lampen
+    entities: 
+      - light.grote_lamp_lars 
+  
+  badkamer_lampen:
+    name: Badkamer lampen
+    entities: 
+      - light.grote_lamp_badkamer
+  
+  huiskamer_voor_lampen:
+    name: Huiskamer lampen voorkant
+    entities: 
+      - light.ledstrip_huiskamer
+  
+  huiskamer_achter_lampen:
+    name: Huiskamer lampen achterkant
+    entities: 
+      - light.grote_lamp_huiskamer
+    
+  owm_weer:
+    name: Weer
+    entities:
+      - sensor.owm_temperature
+      - sensor.owm_forecast
+      
+  temperatuur:
+    name: Temperatuur
+    entities:
+      - sensor.owm_temperature
+      
+
+  device_tracking:
+    name: Familie
+    entities:
+      - device_tracker.iphone_van_rick
+ #    - device_tracker.iphone2home
+ #     - device_tracker.iphonevanestherhome
+ #     - device_tracker.iphonevanlarshome            
+  
+  sonos:
+    name: Sonos
+    entities:
+      - media_player.tv
+      - media_player.tvkamer
+      - media_player.woonkamer
+  treinen:
+    name: Treinen
+    entities:
+#    - sensor.trein
+
+  camera:
+    name: Camera
+    entities:
+      - camera.foscam_camera
+
+      
+#######View
+  default_view:
+    name: Overzicht 
+    view: yes
+    entities:
+      - group.device_tracking
+      - group.owm_weer
+      - camera.foscam_camera
+ #     - sensor.denboschbreda
+#camera voordeur
+#basis view
+#agenda
+#trein verkeer
+
+
+  Huiskamer_view:
+    name: Huiskamer 
+    view: yes
+    entities:
+      - group.huiskamer_voor_lampen
+      - group.huiskamer_achter_lampen
+      - group.temperatuur
+  media_view:
+    name: Media
+    view: yes
+    entities:
+      - group.sonos
+#
+#Sonos toevoegen
+#Spotify
+#TV's toevoegen
+#      
+  slaapkamer_rick_view:
+    name: Slaapkamer Rick 
+    view: yes
+    entities:
+      - group.slaapkamer_rick_lampen
+      - group.slaapkamer_rick_scenes      
+      - media_player.philips_tv
+      - group.temperatuur
+      - group.alarm_clock
+      - group.computer_rick
+
+      
+  slaapkamer_bas_en_esther_view:
+    name: Slaapkamer Bas en Esther 
+    view: yes
+    entities:
+      - group.slaapkamer_bas_en_esther_lampen
+      - group.temperatuur
+      
+  slaapkamer_lars_view:
+    name: Slaapkamer Lars
+    view: yes
+    entities:
+      - group.slaapkamer_lars_lampen
+      - group.temperatuur
+      
+  badkamer_view:
+    name: Badkamer
+    view: yes
+    entities:
+      - group.badkamer_lampen
+      - group.temperatuur 
+      
+      
+  weer_view:
+    name: Klimaat 
+    view: yes
+    entities:
+      - group.owm_weer
+      
+  Camera_view:
+    name: Camera's
+    view: yes
+    entities:
+      - group.camera
+#
+#Cameras toevoegen
+#
+  Status_view:
+    name: Status
+    view: yes
+    entities:
+      - script.reload_groepen
+      - script.reload_ha
+      - group.device_tracking
+      - sensor.speedtest_download
+      - sensor.update_speedtest
+
+#internet snelheid
+#energie verbruik
+#Computer status/knoppen Open Hardware Monitor Sensor         Wake on LAN
+#ps4 status/knoppen
+# Status RPI   
+ 

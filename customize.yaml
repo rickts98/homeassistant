@@ -1,0 +1,30 @@
+sensor.owm_temperature:
+  friendly_name: Temperatuur
+sensor.owm_forecast:
+  friendly_name: Voorspelling
+device_tracker.iphone_van_rick:
+  friendly_name: Rick
+device_tracker.pc_rick:
+  friendly_name: PC Rick
+  icon: mdi:desktop-classic
+  source_type: router
+  state: Online
+light.yeelight_strip_7811dca22117:
+  friendly_name: Led strip
+light.xiaomi_philips_smart_led_ball:
+  friendly_name: Lamp kamer
+group.weer_view:
+  entity_id:
+  - group.owm_weer
+  friendly_name: Klimaat
+  hidden: true
+  order: 21
+  view: true
+script.wake_up: {}
+sensor.desktop:
+    friendly_name: PC Rick
+    icon: mdi:desktop-classic    
+
+
+
+

@@ -1,0 +1,28 @@
+#- platform: nederlandse_spoorwegen
+#  email: ricktersteege@gmail
+#  password: wr3sODxpMlbpW_M-ulbkvL1NYCmt6Ndt9PftqT2ijWx-onTMzFP47w
+#  routes:
+#    - name: trein
+#      from: Rtd
+#      to: Asd
+
+        
+ - platform: openweathermap
+   forecast: true
+   api_key: 52336fed069e16816c2922e9af1999cb
+   language: nl
+   monitored_conditions:
+     - temperature
+      
+ - platform: speedtest
+   monitored_conditions:
+    - ping
+    - download
+    - upload
+
+ - platform: template
+   sensors:
+     desktop:
+       value_template: '{% if is_state("device_tracker.pc_rick", "home") %}Online{% else %}Offline{% endif %}'
+       friendly_name: 'Desktop'
+          

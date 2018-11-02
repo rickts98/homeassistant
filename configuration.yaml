@@ -1,0 +1,151 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 12
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Amsterdam
+  # Customization file
+  customize: !include customize.yaml
+
+      
+######################
+#                    #
+#   Componenten      #
+#                    #
+######################
+frontend:
+config:
+http:
+   api_password: !secret http_wachtwoord
+discovery:
+history:
+logbook:
+map:
+
+#mqtt:
+#  broker: 192.168.0.17
+
+switch:
+  - platform: wake_on_lan
+    mac_address: !secret macadresspcrick 
+
+    
+    
+    
+#xiaomi_aqara:
+#  discovery_retry: 5
+#  gateways:
+#    - key: 8E6B3D8AC35F4524    
+#########################
+#                       #
+#   media spelers       #
+#                       #
+#########################
+
+
+media_player:
+#  - platform: spotify
+#    client_id: 6eba67d9216543b3ad9206019fa9ddc3
+#    client_secret: !secret client_secretSpotify
+    
+#  - platform: philips_js
+#    host: 192.168.0.135
+
+ 
+    
+
+###############
+#             #
+#   Sensors   #
+#             #
+###############
+sensor: !include sensor.yaml
+
+###############
+#             #
+#   Lampen    #
+#             #
+###############
+
+light: !include light.yaml 
+scene: !include scenes.yaml
+
+ 
+            
+            
+
+###############
+#             #
+#   Groepen   #
+#             #
+###############
+group: !include groups.yaml 
+   
+###############
+#             #
+#   zones     #
+#             #
+############### 
+
+zone:
+  name: Home
+  latitude: !secret latitude 
+  longitude: !secret longitude 
+  radius: 50
+  icon: mdi:home
+  
+## Meer zones toevoegen
+ 
+
+######################
+#                    #
+#   notificaties     #
+#                    #
+######################  
+  
+  
+  #TODO
+  
+######################
+#                    #
+#   Apparaten        #
+#                    #
+###################### 
+ios:
+
+zwave:
+   usb_path: /dev/ttyACM0
+
+device_tracker:
+##Owntracks instellen
+ - platform: ping
+   hosts:
+     pc_rick: 192.168.1.25
+     
+# - platform: owntracks
+#   hosts:
+#     pc_rick: 192.168.1.25
+     
+     
+     
+script: !include scripts.yaml
+
+
+camera:
+  - platform: foscam
+    ip: 192.168.2.21
+    username: rick
+    password: ipcam_wachtwoord
+
+
+#Werkt nog niet
+  # - platform: icloud
+    # username: 
+    # password: 
+    # account_name: accountname 

@@ -1,0 +1,103 @@
+#Lampen kamer Rick 
+#  - platform: xiaomi_miio
+#    name: Xiaomi Philips Smart LED Ball
+#    host: 192.168.0.4 
+#    token: 46850299fab30c8707958438a4a31f3e
+
+#  - platform: yeelight
+#    name: ledStrip
+#    host: 192.168.0.3
+#    token: 5230531732282ef9c36a9f220d38a866
+#    use_music_mode: True
+#
+  - platform: template
+    lights:
+      grote_lamp_rick:
+        friendly_name: "Grote lamp"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+        set_level:
+          service: script.theater_lights_level
+          data_template:
+            brightness: "{{ brightness }}"
+            
+  - platform: template
+    lights:
+      ledstrip_rick:
+        friendly_name: "Led strip"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+          
+          
+#Lampen huiskamer
+  - platform: template
+    lights:
+      grote_lamp_huiskamer:
+        friendly_name: "Grote lamp"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+        set_level:
+          service: script.theater_lights_level
+          data_template:
+            brightness: "{{ brightness }}"
+            
+  - platform: template
+    lights:
+      ledstrip_huiskamer:
+        friendly_name: "Led strip"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+  
+#Lampen Badkamer
+  - platform: template
+    lights:
+      grote_lamp_badkamer:
+        friendly_name: "Grote lamp"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+        set_level:
+          service: script.theater_lights_level
+          data_template:
+            brightness: "{{ brightness }}"
+
+           
+            
+#Lampen kamer lars            
+            
+  - platform: template
+    lights:
+      grote_lamp_lars:
+        friendly_name: "Grote lamp"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+        set_level:
+          service: script.theater_lights_level
+          data_template:
+            brightness: "{{ brightness }}"
+            
+#Lampen kamer Bas en Esther
+  - platform: template
+    lights:
+      grote_lamp_bas_esther:
+        friendly_name: "Grote lamp"
+        turn_on:
+          service: script.theater_lights_on
+        turn_off:
+          service: script.theater_lights_off
+        set_level:
+          service: script.theater_lights_level
+          data_template:
+            brightness: "{{ brightness }}"
+            

@@ -1,0 +1,45 @@
+ - name: Slapen
+   entities:
+      light.xiaomi_philips_smart_led_ball: off
+      light.yeelight_strip_7811dca22117: off
+        
+ - name: Lampen aan
+   entities:
+      light.xiaomi_philips_smart_led_ball:
+        state: on  
+        brightness: 255
+        color_name: white    
+      light.yeelight_strip_7811dca22117:
+        state: on  
+        brightness: 255
+        color_name: white
+
+ - name: Wakker worden
+   entities:
+      light.xiaomi_philips_smart_led_ball:
+        state: on  
+        brightness: 100
+        color_name: white    
+      light.yeelight_strip_7811dca22117:
+        state: on  
+        brightness: 100
+        color_name: white        
+       
+ - name: Film
+   entities:
+      light.xiaomi_philips_smart_led_ball:
+        state: off  
+      light.yeelight_strip_7811dca22117:
+        state: on  
+        brightness: 25
+        color_name: white        
+
+
+ - name: Romantisch
+   entities:
+      light.xiaomi_philips_smart_led_ball:
+        state: off  
+      light.yeelight_strip_7811dca22117:
+        state: on  
+        brightness: 25          
+        color_name: red 

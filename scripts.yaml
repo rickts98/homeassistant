@@ -1,0 +1,13 @@
+reload_groepen:
+  alias: herlaad groepen
+  sequence:
+    service: group.reload
+reload_ha:
+  alias: herstart ha
+  sequence:
+    service: homeassistant.restart
+wake_up:
+  sequence:
+    service: light.turn_on
+    entity_id: light.yeelight_strip_7811dca22117
+    

@@ -1,0 +1,28 @@
+title: My Awesome Home
+views:
+    # View tab title.
+  - title: Example
+    # Optional unique id for direct access /lovelace/${id}
+    id: example
+    # Each view can have a different theme applied. Theme should be defined in the frontend.
+    theme: dark-mode
+    # The cards to show on this view.
+    cards:
+        # The entities card will take a list of entities and show their state.
+      - type: entities
+        # Title of the entities card
+        title: Example
+        # The entities here will be shown in the same order as specified.
+        entities:
+
+        # The filter card will filter available entities for certain criteria
+        # and render it as type 'entities'.
+      - type: entity-filter
+        # Filter criteria. They are all optional.
+        filter:
+          - domain: input_boolean
+            state: 'on'
+        # This config will be passed to the card rendering the filter results
+        card_config:
+          title: Input booleans that are on
+
