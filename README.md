@@ -37,7 +37,7 @@
 - [ ] DSMR or Slimme meter
 - [ ] Sun
 - [ ] Ping 
-- [v] Speedtest
+- [x] Speedtest
 - [ ] SynologyDSM Sensor
 - [ ] Buienradar Sensor
 
