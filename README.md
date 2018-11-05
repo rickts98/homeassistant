@@ -8,8 +8,10 @@
 - [x] Install Home Assistant
 - [x] Setup Samba
 - [ ] Setup Node-red
+- [ ] Setup Duckdns
+- [ ] Setup Portforwarding
 - [x] Setup Sonos
-- [ ] Setup Plex
+- [x] Setup Plex
 - [ ] Setup NS api
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
