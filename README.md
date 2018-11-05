@@ -40,7 +40,7 @@
 - [ ] Sun
 - [ ] Ping 
 - [x] Speedtest
-- [ ] SynologyDSM Sensor
+- [x] SynologyDSM Sensor
 - [ ] Buienradar Sensor
 
 #Automations
