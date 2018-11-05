@@ -38,10 +38,10 @@
 - [ ] PVOutput Sensor
 - [ ] DSMR or Slimme meter
 - [ ] Sun
-- [ ] Ping 
+- [x] Ping 
 - [x] Speedtest
 - [x] SynologyDSM Sensor
-- [ ] Buienradar Sensor
+- [x] Buienradar Sensor
 
 #Automations
 - [ ] 
