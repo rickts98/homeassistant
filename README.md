@@ -32,6 +32,7 @@
 - [ ] Setup Buienradar
 - [ ] Connect Z-wave Light switch
 - [x] Connect Xiaomi light
+- [x] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
 
 #Sensor
@@ -42,9 +43,11 @@
 - [x] Speedtest
 - [x] SynologyDSM Sensor
 - [x] Buienradar Sensor
+- [x] Xiaomi Movement Sensor
+- [x] Xiaomi Door sensor
 
 #Automations
-- [ ] 
+- [ ] Turn on light in bathroom when movement is detected
 - [ ] 
 - [ ] 
 
