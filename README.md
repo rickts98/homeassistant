@@ -2,9 +2,9 @@
 
 
 
-# Todo-list
+#  Todo-list
 
-#  Setup
+#    Setup
 - [x] Install Home Assistant
 - [x] Setup Samba
 - [x] Setup Node-red
@@ -35,7 +35,7 @@
 - [x] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
 
-#  Sensor
+#   Sensor
 - [ ] PVOutput Sensor
 - [ ] DSMR or Slimme meter
 - [ ] Sun
@@ -46,15 +46,20 @@
 - [x] Xiaomi Movement Sensor
 - [x] Xiaomi Door sensor
 
-#  Frontend
+#   Frontend
+- [ ] Lovelace
+- [ ] Make multiple rooms
+- [ ] Floorplan
+- [ ] 
+- [ ]
 
 
-#  Automations
+#   Automations
 - [ ] Turn on light in bathroom when movement is detected
 - [ ] 
 - [ ]
 
-# Fixes
+#   Fixes
 - [x] Samba share not writeable
 - [ ] 
 
