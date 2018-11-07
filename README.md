@@ -2,12 +2,12 @@
 
 
 
-#Todo-list
+# Todo-list
 
-#Setup
+#  Setup
 - [x] Install Home Assistant
 - [x] Setup Samba
-- [ ] Setup Node-red
+- [x] Setup Node-red
 - [ ] Setup Duckdns
 - [ ] Setup Portforwarding
 - [x] Setup Sonos
@@ -16,7 +16,7 @@
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
 - [ ] Setup Skybell
-- [ ] Setup Xiaomi Gateway
+- [x] Setup Xiaomi Gateway
 - [ ] Setup UniFi
 - [ ] Setup Chromecast
 - [ ] Setup Climate control
@@ -29,13 +29,13 @@
 - [ ] Setup Owntracks
 - [ ] Setup MQTT
 - [ ] Setup Google Assistant
-- [ ] Setup Buienradar
+- [x] Setup Buienradar
 - [ ] Connect Z-wave Light switch
 - [x] Connect Xiaomi light
 - [x] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
 
-#Sensor
+#  Sensor
 - [ ] PVOutput Sensor
 - [ ] DSMR or Slimme meter
 - [ ] Sun
@@ -46,8 +46,15 @@
 - [x] Xiaomi Movement Sensor
 - [x] Xiaomi Door sensor
 
-#Automations
+#  Frontend
+
+
+#  Automations
 - [ ] Turn on light in bathroom when movement is detected
 - [ ] 
+- [ ]
+
+# Fixes
+- [x] Samba share not writeable
 - [ ] 
 
