@@ -8,8 +8,8 @@
 - [x] Install Home Assistant
 - [x] Setup Samba
 - [x] Setup Node-red
-- [ ] Setup Duckdns
-- [ ] Setup Portforwarding
+- [x] Setup Duckdns
+- [x] Setup Portforwarding
 - [x] Setup Sonos
 - [x] Setup Plex
 - [ ] Setup NS api
@@ -17,12 +17,12 @@
 - [ ] Setup Foscam/synology 
 - [ ] Setup Skybell
 - [x] Setup Xiaomi Gateway
-- [ ] Setup UniFi
+- [x] Setup UniFi
 - [ ] Setup Chromecast
 - [ ] Setup Climate control
 - [ ] Setup RainMachine
-- [ ] Setup Philips TV
-- [ ] Setup Spotify
+- [x] Setup Philips TV
+- [x] Setup Spotify
 - [x] Setup Wake on Lan
 - [ ] Setup Notification sensor
 - [ ] Setup Google Maps Location Sharing
