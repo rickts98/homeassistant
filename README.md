@@ -47,19 +47,31 @@
 - [x] Xiaomi Door sensor
 
 #   Frontend
-- [ ] Lovelace
+- [ ] Lovelace-UI
 - [ ] Make multiple rooms
 - [ ] Floorplan
-- [ ] 
+- [ ] HAdashboard
 - [ ]
 
 
 #   Automations
 - [ ] Turn on light in bathroom when movement is detected
+- [ ] Notification to phone when dishwasher is ready
+- [ ] Notification to phone when washing machine is ready
+- [ ] Notification to phone when train is delayed
+- [ ] Notification to phone when 
+
+
+
+#   DIY
+- [ ] Automatic blinds
+- [ ] Bed presence detection
 - [ ] 
-- [ ]
+
 
 #   Fixes
 - [x] Samba share not writeable
-- [ ] 
+- [ ] Auto update duckdns when external ip changes
+
+
 
