@@ -34,6 +34,7 @@
 - [x] Connect Xiaomi light
 - [x] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
+- [ ] Google Maps Travel Time
 
 #   Sensor
 - [ ] PVOutput Sensor
@@ -45,6 +46,7 @@
 - [x] Buienradar Sensor
 - [x] Xiaomi Movement Sensor
 - [x] Xiaomi Door sensor
+
 
 #   Frontend
 - [ ] Lovelace-UI
@@ -60,6 +62,8 @@
 - [ ] Notification to phone when washing machine is ready
 - [ ] Notification to phone when train is delayed
 - [ ] Notification to phone when 
+- [ ] Notification when traffic is bad 
+- [ ] Notification to phone when battery of sensor is below 5%
 
 
 
