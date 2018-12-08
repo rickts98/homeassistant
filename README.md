@@ -12,6 +12,7 @@
 - [x] Setup Portforwarding
 - [x] Setup Sonos
 - [x] Setup Plex
+- [x] Setup Apple Homekit
 - [ ] Setup NS api
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
