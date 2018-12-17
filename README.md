@@ -10,30 +10,30 @@
 - [x] Setup Node-red
 - [x] Setup Duckdns
 - [x] Setup Portforwarding
-- [x] Setup Sonos
-- [x] Setup Plex
-- [x] Setup Apple Homekit
+- [ ] Setup Sonos
+- [ ] Setup Plex
+- [ ] Setup Apple Homekit
 - [ ] Setup NS api
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
 - [ ] Setup Skybell
-- [x] Setup Xiaomi Gateway
-- [x] Setup UniFi
+- [ ] Setup Xiaomi Gateway
+- [ ] Setup UniFi
 - [ ] Setup Chromecast
 - [ ] Setup Climate control
 - [ ] Setup RainMachine
-- [x] Setup Philips TV
-- [x] Setup Spotify
+- [ ] Setup Philips TV
+- [ ] Setup Spotify
 - [x] Setup Wake on Lan
 - [ ] Setup Notification sensor
 - [ ] Setup Google Maps Location Sharing
 - [ ] Setup Owntracks
 - [ ] Setup MQTT
 - [ ] Setup Google Assistant
-- [x] Setup Buienradar
+- [ ] Setup Buienradar
 - [ ] Connect Z-wave Light switch
-- [x] Connect Xiaomi light
-- [x] Connect Xiaomi Gateway
+- [ ] Connect Xiaomi light
+- [ ] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
 - [ ] Google Maps Travel Time
 
@@ -42,9 +42,9 @@
 - [ ] DSMR or Slimme meter
 - [ ] Sun
 - [x] Ping 
-- [x] Speedtest
-- [x] SynologyDSM Sensor
-- [x] Buienradar Sensor
+- [ ] Speedtest
+- [ ] SynologyDSM Sensor
+- [ ] Buienradar Sensor
 - [x] Xiaomi Movement Sensor
 - [x] Xiaomi Door sensor
 
