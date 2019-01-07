@@ -10,16 +10,16 @@
 - [x] Setup Node-red
 - [x] Setup Duckdns
 - [x] Setup Portforwarding
-- [ ] Setup Sonos
+- [x] Setup Sonos
 - [ ] Setup Plex
 - [ ] Setup Apple Homekit
 - [ ] Setup NS api
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
 - [ ] Setup Skybell
-- [ ] Setup Xiaomi Gateway
-- [ ] Setup UniFi
-- [ ] Setup Chromecast
+- [x] Setup Xiaomi Gateway
+- [x] Setup UniFi
+- [x] Setup Chromecast
 - [ ] Setup Climate control
 - [ ] Setup RainMachine
 - [ ] Setup Philips TV
@@ -42,8 +42,8 @@
 - [ ] DSMR or Slimme meter
 - [ ] Sun
 - [x] Ping 
-- [ ] Speedtest
-- [ ] SynologyDSM Sensor
+- [x] Speedtest
+- [x] SynologyDSM Sensor
 - [ ] Buienradar Sensor
 - [x] Xiaomi Movement Sensor
 - [x] Xiaomi Door sensor
