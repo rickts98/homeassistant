@@ -16,7 +16,7 @@
 - [ ] Setup NS api
 - [ ] Setup Google Home
 - [ ] Setup Foscam/synology 
-- [ ] Setup Skybell
+- [x] Setup Doorbird
 - [x] Setup Xiaomi Gateway
 - [x] Setup UniFi
 - [x] Setup Chromecast
@@ -64,7 +64,7 @@
 - [ ] Notification to phone when train is delayed
 - [ ] Notification to phone when 
 - [ ] Notification when traffic is bad 
-- [ ] Notification to phone when battery of sensor is below 5%
+- [ ] Notification to phone when battery of sensor is below 10%
 
 
 
