@@ -36,6 +36,7 @@
 - [ ] Connect Xiaomi Gateway
 - [x] Connect Yeelight led strip
 - [ ] Google Maps Travel Time
+- [ ] koogeek smart plug
 
 #   Sensor
 - [ ] PVOutput Sensor
@@ -62,7 +63,7 @@
 - [ ] Notification to phone when dishwasher is ready
 - [ ] Notification to phone when washing machine is ready
 - [ ] Notification to phone when train is delayed
-- [ ] Notification to phone when 
+- [ ] Notification to phone when doorbell is pushed
 - [ ] Notification when traffic is bad 
 - [ ] Notification to phone when battery of sensor is below 10%
 
